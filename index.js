@@ -23,7 +23,7 @@ if (fs.existsSync(huskyConfig)) {
 } else {
   fs.writeFileSync(huskyConfig, JSON.stringify({
     "hooks": {
-      "commit-msg": "eslint --ext .vue,.js ./src/ && commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "eslint --ext .vue,.js ./ && commitlint -e HUSKY_GIT_PARAMS"
     }
   }, null, 4))
 }
