@@ -17,7 +17,7 @@ $ npm i nice-commit --save-dev
 $ yarn add nice-commit --dev
 ```
 
-安装时，会自动在项目中创建配置文件 `.eslintrc.js` / `.huskyrc`
+安装时自动在项目中创建 `.eslintrc.js` / `.eslintignore` / `.huskyrc` / `.commitlintrc.js` 等配置文件
 
 ## 注意
 
