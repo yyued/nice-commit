@@ -1,7 +1,7 @@
 {
   "name": "nice-commit",
   "version": "0.0.4",
-  "description": "",
+  "description": "规范 Git Commit",
   "main": "index.js",
   "scripts": {
     "preinstall": "node index.js"
