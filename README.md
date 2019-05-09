@@ -18,3 +18,7 @@ $ yarn add nice-commit --dev
 ```
 
 安装时，会自动在项目中创建配置文件 `.eslintrc.js` / `.huskyrc`
+
+## 注意
+
+安装模块需要项目存在 **package.json**
