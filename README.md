@@ -3,7 +3,7 @@
 自动创建 Git Commit Hook 进行规范检测，主要检测以下内容：
 
 * `.js` / `.vue` 文件符合 ESLint [YYUED](https://github.com/yyued/eslint-config-yyued) 规范
-* commit 日志符合 [Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) 规范
+* commit log 符合 [Angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#-commit-message-guidelines) 规范
 
 ## 使用
 
@@ -17,7 +17,13 @@ $ npm i nice-commit --save-dev
 $ yarn add nice-commit --dev
 ```
 
-安装时自动在项目中创建 `.eslintrc.js` / `.eslintignore` / `.huskyrc` / `.commitlintrc.js` 等配置文件
+安装时自动在项目中创建配置文件
+
+* `.editorconfig`
+* `.eslintrc.js`
+* `.eslintignore`
+* `.huskyrc`
+* `.commitlintrc.js`
 
 ## 注意
 
