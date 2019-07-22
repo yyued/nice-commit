@@ -27,7 +27,7 @@ $ npx nice-commit
 $ yarn exec nice-commit
 ```
 
-安装时自动在项目中创建配置文件
+项目中创建配置文件如下
 
 * `.editorconfig`
 * `.eslintrc.js`
