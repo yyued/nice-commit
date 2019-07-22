@@ -1,8 +1,10 @@
+#!/usr/bin/env node
+
 const path = require('path')
 const fs = require('fs')
 const inquirer = require('inquirer')
 
-const projectPath = path.resolve(process.cwd(), '../../')
+const projectPath = process.cwd()
 const eslintConfig = path.resolve(projectPath, '.eslintrc.js')
 const eslintIgnoreConfig = path.resolve(projectPath, '.eslintignore')
 const huskyConfig = path.resolve(projectPath, '.huskyrc')
@@ -28,7 +30,7 @@ const editorConfig = path.resolve(projectPath, '.editorconfig')
   const warn = msg => console.log(msg)
 
   if (!fs.existsSync(packageJson)) {
-  // eslint-disable-next-line no-throw-literal
+    // eslint-disable-next-line no-throw-literal
     throw 'error: package.json not exist'
   }
 

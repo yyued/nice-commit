@@ -7,14 +7,24 @@
 
 ## 使用
 
-在项目中执行安装即可
+#### 1. 在项目中执行安装
 
-```bash
+```sh
 $ npm i nice-commit --save-dev
 
 # or
 
 $ yarn add nice-commit --dev
+```
+
+#### 2. 创建配置文件
+
+```sh
+$ npx nice-commit
+
+# or
+
+$ yarn exec nice-commit
 ```
 
 安装时自动在项目中创建配置文件
