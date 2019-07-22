@@ -65,10 +65,10 @@ assets
     warn('warn: husky conf exist')
   } else {
     fs.writeFileSync(huskyConfig, JSON.stringify({
-      'hooks': {
+      hooks: {
         'commit-msg': 'eslint --ext .vue,.js ./ && commitlint -e $GIT_PARAMS'
       }
-    }, null, 4))
+    }, null, 2))
   }
 
   if (fs.existsSync(commitlintConfig)) {
