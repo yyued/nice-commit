@@ -1,6 +1,6 @@
 {
   "name": "nice-commit",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "规范 Git Commit",
   "main": "index.js",
   "scripts": {},
