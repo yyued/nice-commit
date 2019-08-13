@@ -68,7 +68,7 @@ assets
   } else {
     fs.writeFileSync(huskyConfig, JSON.stringify({
       hooks: {
-        'commit-msg': 'eslint --ext .vue,.js ./ && commitlint -e $GIT_PARAMS'
+        'commit-msg': 'eslint "**/*.{js,vue}" && commitlint -e $GIT_PARAMS'
       }
     }, null, 2))
   }
